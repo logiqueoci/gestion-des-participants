@@ -5,7 +5,7 @@
 @section('content')
 
 <p>
-    Retour -- <a href="add-participant">Enregistrer un participant</a>
+    Retour -- <a href="{{ route('app_add_participant') }}">Enregistrer un participant</a>
 </p>
 
 <h2>
@@ -13,7 +13,7 @@
 </h2>
 
 <footer>
-    <p>&copy; Copyright {{ date('Y') }} &middot; <a href='/'>Accueil</a></p>
+    <p>&copy; Copyright {{ date('Y') }} &middot; <a href="{{ route('app_home') }}">Accueil</a></p>
 </footer>
 
 @endsection

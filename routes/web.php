@@ -22,14 +22,14 @@ Route::get('/', function () {
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('app_home');
 
 
 Route::get('/add-participant', function () {
     return view('/participant/add');
-});
+})->name('app_add_participant');
 
 
 Route::get('/list-participant', function () {
     return view('/participant/list');
-});
+})->name('app_list_participant');

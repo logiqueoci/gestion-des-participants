@@ -5,7 +5,7 @@
 @section('content')
 
 <p>
-    Voir -- <a href="list-participant">Consulter la liste des participants </a>
+    Voir -- <a href="{{ route('app_list_participant') }}">Consulter la liste des participants </a>
 </p>
 
 <h2>
@@ -13,7 +13,7 @@
 </h2>
 
 <footer>
-    <p>&copy; Copyright {{ date('Y') }} &middot; <a href='/'>Accueil</a></p>
+    <p>&copy; Copyright {{ date('Y') }} &middot; <a href="{{ route('app_home') }}">Accueil</a></p>
 </footer>
 
 @endsection

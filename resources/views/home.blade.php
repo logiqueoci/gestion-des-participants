@@ -10,8 +10,8 @@
 
 <h3>Menu</h3>
 
-<p><a href="add-participant">Ajouter un participant </a></p>
+<p><a href="{{ route('app_add_participant') }}">Ajouter un participant </a></p>
 
-<p><a href="list-participant">Consulter la liste des participants </a></p>
+<p><a href="{{ route('app_list_participant') }}">Consulter la liste des participants </a></p>
 
 @endsection
