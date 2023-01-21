@@ -22,18 +22,14 @@
             </tr>
         </thead>
         <tbody>
+            @foreach($listParticipant as $participant)
             <tr>
-                <td>KOUAME</td>
-                <td>Laurent</td>
-                <td>0700987876</td>
-                <td>logique00@gmail.com</td>
+                <td>{{ $participant->nom }}</td>
+                <td>{{ $participant->prenom }}</td>
+                <td>{{ $participant->numero }}</td>
+                <td>{{ $participant->email }}</td>
             </tr>
-            <tr>
-                <td>YAO</td>
-                <td>Marc</td>
-                <td>0707456765</td>
-                <td>marcyao@gmail.com</td>
-            </tr>
+            @endforeach
         </tbody>
 
     </table>

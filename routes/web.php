@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ParticipantController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,7 +29,9 @@ Route::get('/add-participant', function () {
     return view('/participant/add');
 })->name('app_add_participant');
 
-
+/*
 Route::get('/list-participant', function () {
     return view('/participant/list');
 })->name('app_list_participant');
+*/
+Route::get('/list-participant', [ParticipantController::class, 'getAllParticipant'])->name('app_list_participant');
