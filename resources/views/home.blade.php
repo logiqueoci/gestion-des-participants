@@ -1,7 +1,7 @@
 @extends('base')
 
 
-@section('title', 'Gest-Part')
+@section('title', config('app.name'))
 
 @section('content')
 

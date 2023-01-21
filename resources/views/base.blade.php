@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-        @yield('title', 'Gest-Part')
+        @yield('title', config('app.name'))
     </title>
 
 </head>

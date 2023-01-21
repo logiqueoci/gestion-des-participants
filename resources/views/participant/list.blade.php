@@ -1,8 +1,6 @@
 @extends('base')
 
-@section('title')
-Gest-Part | Liste des participants
-@endsection
+@section('title', config('app.name'). '| Liste des participants')
 
 @section('content')
 
