@@ -12,8 +12,4 @@
     Liste des participants
 </h2>
 
-<footer>
-    <p>&copy; Copyright {{ date('Y') }} &middot; <a href="{{ route('app_home') }}">Accueil</a></p>
-</footer>
-
 @endsection
