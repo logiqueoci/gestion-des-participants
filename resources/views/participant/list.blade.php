@@ -16,19 +16,22 @@
         <thead>
             <tr>
                 <th data-priority="1">Nom</th>
-                <th data-priority="2">Prenom</th>
-                <th data-priority="3">Email</th>
+                <th data-priority="2">Prénom</th>
+                <th data-priority="3">Numéro de téléphone</th>
+                <th data-priority="4">Email</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>KOUAME</td>
                 <td>Laurent</td>
+                <td>0700987876</td>
                 <td>logique00@gmail.com</td>
             </tr>
             <tr>
                 <td>YAO</td>
                 <td>Marc</td>
+                <td>0707456765</td>
                 <td>marcyao@gmail.com</td>
             </tr>
         </tbody>
