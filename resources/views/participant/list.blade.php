@@ -1,37 +1,21 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('base')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@section('title')
+Gest-Part | Liste des participants
+@endsection
 
-    <title>GEST-PART | Listes-participants</title>
+@section('content')
 
-</head>
+<p>
+    Retour -- <a href="add-participant">Enregistrer un participant</a>
+</p>
 
-<body>
-    <h1>
-        Bienvenue sur Gest-Part
-    </h1>
-    <h2>
-        L'application qui vous permet de gérer la liste de présence
-    </h2>
+<h2>
+    Liste des participants
+</h2>
 
-    <h3>Menu</h3>
+<footer>
+    <p>&copy; Copyright {{ date('Y') }} &middot; <a href='/'>Accueil</a></p>
+</footer>
 
-    <p>
-        Retour -- <a href="add-participant">Enregistrer un participant</a>
-    </p>
-
-    <h2>
-        Liste des participants
-    </h2>
-
-
-    <footer>
-        <p>&copy; Copyright {{ date('Y') }} &middot; <a href='/'>Accueil</a></p>
-    </footer>
-
-</body>
-
-</html>
+@endsection
