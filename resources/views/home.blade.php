@@ -5,13 +5,12 @@
 
 @section('content')
 
-<h1>Bienvenue sur Gest-Part</h1>
-<h2>L'application qui vous permet de gérer la liste de présence</h2>
-
-<h3>Menu</h3>
-
-<p><a href="{{ route('app_add_participant') }}">Ajouter un participant </a></p>
-
-<p><a href="{{ route('app_list_participant') }}">Consulter la liste des participants </a></p>
+<!--Title-->
+<h1 class="flex items-center font-sans font-bold break-normal text-indigo-500 px-2 py-8 text-xl md:text-2xl">
+    Bienvenue sur Gest-Part
+</h1>
+<h2 class="flex items-center font-sans font-bold break-normal text-indigo-500 px-2 py-8 text-xl md:text-2xl">
+    L'application qui vous permet de gérer la liste de présence
+</h2>
 
 @endsection
