@@ -47,10 +47,3 @@ Route::get('/add-participant', [ParticipantController::class, 'addParticipant'])
 Route::post('/add-participant', [ParticipantController::class, 'saveParticipant'])->name('app_save_participant');
 
 Route::get('/list-participant', [ParticipantController::class, 'getAllParticipant'])->name('app_list_participant');
-
-
-Route::get('/add-candidat', [CandidatController::class, 'addCandidat'])->name('app_add_candidat');
-
-Route::post('/add-candidat', [CandidatController::class, 'saveCandidat'])->name('app_save_candidat');
-
-Route::get('/list-candidat', [CandidatController::class, 'getAllCandidat'])->name('app_list_candidat');
