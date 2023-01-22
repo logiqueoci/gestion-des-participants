@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ParticipantController;
+use App\Http\Controllers\CandidatController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -34,4 +35,19 @@ Route::get('/list-participant', function () {
     return view('/participant/list');
 })->name('app_list_participant');
 */
+/*Route::get('/add-candidat', function () {
+    return view('/candidat/add');
+})->name('app_add_candidat');*/
+
+/*Route::get('/list-candidat', function () {
+    return view('/candidat/list');
+})->name('app_list_candidat');*/
+
+
 Route::get('/list-participant', [ParticipantController::class, 'getAllParticipant'])->name('app_list_participant');
+
+Route::get('/add-candidat', [CandidatController::class, 'addCandidat'])->name('app_add_candidat');
+
+Route::post('/add-candidat', [CandidatController::class, 'saveCandidat'])->name('app_save_candidat');
+
+Route::get('/list-candidat', [CandidatController::class, 'getAllCandidat'])->name('app_list_candidat');

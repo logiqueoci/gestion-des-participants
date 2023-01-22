@@ -129,7 +129,13 @@
                         <a href="{{ route('app_add_participant') }}" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Participant</a>
                     </li>
                     <li>
-                        <a href="{{ route('app_list_participant') }}" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Liste Participant</a>
+                        <a href="{{ route('app_list_participant') }}" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Liste des Participants</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('app_add_candidat') }}" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Candidat</a>
+                    </li>
+                    <li>
+                        <a href="{{ route('app_list_candidat') }}" class="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Liste des Candidats</a>
                     </li>
                 </ul>
             </div>
@@ -155,6 +161,13 @@
                 </li>
                 <li>
                     <a href="{{ route('app_list_participant') }}" class="mr-4 hover:underline md:mr-6">Liste des participants</a>
+                </li>
+
+                <li>
+                    <a href="{{ route('app_add_candidat') }}" class="mr-4 hover:underline md:mr-6">Candidat</a>
+                </li>
+                <li>
+                    <a href="{{ route('app_list_candidat') }}" class="mr-4 hover:underline md:mr-6">Liste des candidats</a>
                 </li>
             </ul>
         </footer>
