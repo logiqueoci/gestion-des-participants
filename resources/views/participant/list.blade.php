@@ -12,7 +12,7 @@
 <!--Card-->
 <div id='participants' class="p-8 mt-6 lg:mt-0 rounded shadow bg-white">
 
-    <table id="example" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
+    <table id="participantT" class="stripe hover" style="width:100%; padding-top: 1em;  padding-bottom: 1em;">
         <thead>
             <tr>
                 <th data-priority="1">Nom</th>
@@ -47,7 +47,7 @@
 <script>
     $(document).ready(function() {
 
-        var table = $('#example').DataTable({
+        var table = $('#participantT').DataTable({
                 responsive: true
             })
             .columns.adjust()
